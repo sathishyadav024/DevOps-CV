@@ -1,0 +1,88 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact, .social {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact a, .social a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+h2 {
+    color: #222;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    padding: 8px;
+    margin: 5px 0;
+    border-left: 5px solid #0073e6;
+}
+
+.skills li {
+    display: inline-block;
+    background: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: #0073e6;
+    margin-bottom: 5px;
+}
+
+.job-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
